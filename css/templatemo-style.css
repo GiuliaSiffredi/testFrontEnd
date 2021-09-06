@@ -144,6 +144,8 @@ figure {
 #video:after {
   content: '';
   opacity: 0.75;
+  background-image: url("images/sfondo1.png");
+  background-repeat: no-repeat;
   background: #ee4083; /* Old browsers */
   background: -moz-linear-gradient(top, #4096ee 0%, #39ced6 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #df40ee 0%,#d639a2 100%); /* Chrome10-25,Safari5.1-6 */
@@ -605,6 +607,11 @@ a#logo {
   z-index: 9;
   border-radius: 10px;
 }
+
+.thumb-inner {
+  border-radius: 10px;
+}
+
 .portfolio-item .thumb-inner {
   position: absolute;
   z-index: 99;
@@ -614,8 +621,8 @@ a#logo {
   background-color: rgba(250,250,250,0.25);
   width: 100%;
   height: 60px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  /*border-top-left-radius: 0px;
+  border-top-right-radius: 0px;*/
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -888,10 +895,16 @@ textarea.form-control {
 
 .language-skills{
 margin:10px;
-
 }
+
+
 
 .flags-img{
 height: 100px;
 width: 100px;
+}
+
+.work-exp{
+  width: 200%;
+  margin-right:5px;
 }
