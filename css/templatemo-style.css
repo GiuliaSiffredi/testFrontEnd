@@ -526,15 +526,29 @@ a#logo {
 /*==============================================
 06. SERVICES BLOCK CSS
 ================================================*/
-.title-block {
+.title-block-altro {
   margin-bottom: 40px;
   font-weight: 600;
 }
-.title-block span {
+
+.title-block-skills{
+  margin-bottom: -70px;
+  font-weight: 600;
+}
+
+
+.title-block-skills span {
   font-size: 24px;
   text-transform: uppercase;
   
 }
+
+.title-block-altro span {
+  font-size: 24px;
+  text-transform: uppercase;  
+}
+
+
 .services-list .item {
   background-color: rgba(250,250,250,0.25);
   border-radius: 10px;
