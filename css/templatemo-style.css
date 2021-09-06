@@ -154,7 +154,8 @@ figure {
   top:0;
   right:0;
   bottom: 0;
-}
+   }
+
 .wrapper-background-dark:after {
   background: #222;
   opacity:0.95;
@@ -880,13 +881,14 @@ textarea.form-control {
   }
 
 .icone-computer-skills{
-  padding-right:5px;
+  
   padding-top:14px;
   padding-bottom: 8px;
 }
 
 .language-skills{
 margin:10px;
+
 }
 
 .flags-img{
