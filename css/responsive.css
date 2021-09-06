@@ -43,9 +43,17 @@
 	.title-block p {
 		line-height: 1.6;
 	}
-	.title-block {
+
+	
+	.title-block .skills{
+		margin-bottom:-60px;
+	}
+
+	.title-block .hobby{
 		margin-bottom:25px;
 	}
+
+	
 	.service-icon {
 		width:80px;
 		height:80px;
