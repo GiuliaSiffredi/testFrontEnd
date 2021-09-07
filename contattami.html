@@ -67,12 +67,17 @@
                                 <div class="row">                                    
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <form id="ajax-contact" method="post" action="https://formspree.io/f/xleaaobg">
-                                            <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                            
+                                            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                                            <div class="input-group mb-2 mr-sm-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><b>@</b></div>
+                                                </div>
+                                                    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
                                             </div>
-                                            <div class="input-field">
-                                                <input type="email" class="form-control" name="_replyto" id="email" required placeholder="Email">
-                                            </div>
+                                                <div class="input-field">
+                                                    <input type="email" class="form-control" name="_replyto" id="email" required placeholder="Email">
+                                                </div>
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
